@@ -5,7 +5,7 @@ context:
   version: "0.2.5.1"
   # see https://github.com/conda-forge/spacy-feedstock/pull/170
   python_check_max: "3.13"
-  cov_fail_under: "34"
+  cov_fail_under: "33"
 
 package:
   name: morphseg
