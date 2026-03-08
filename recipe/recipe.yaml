@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.4"
+  version: "0.2.5.1"
   # see https://github.com/conda-forge/spacy-feedstock/pull/170
   python_check_max: "3.13"
   cov_fail_under: "34"
@@ -13,7 +13,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/m/morphseg/morphseg-${{ version }}.tar.gz
-    sha256: 45a3319997d08f14887d6734a8c00fe8ca278a3714e3b32a96c197cce07c9a51
+    sha256: 6f6492e5732951d60901bf139e3d4ba20ad9132610beac8762c87ed6a0a75ad3
     target_directory: dist
   # upstream doesn't have tags
   - url: https://raw.githubusercontent.com/TheWelcomer/MorphSeg/refs/heads/master/LICENSE.TXT
