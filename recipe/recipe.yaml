@@ -3,8 +3,7 @@ schema_version: 1
 
 context:
   version: "0.2.5.1"
-  # see https://github.com/conda-forge/spacy-feedstock/pull/170
-  python_check_max: "3.13"
+  python_check_max: "3.14"
   cov_fail_under: "33"
 
 package:
@@ -20,7 +19,7 @@ source:
     sha256: 606ff9c1102dd8e3c1f5b18eecf4b1fd505c11f775d70bb4aee916413d0b278b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script:
     - cd dist
